@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://img.freepik.com/free-vector/group-construction-workers-cartoon-characters_1308-90754.jpg?w=740&t=st=1668503549~exp=1668504149~hmac=848f58c482c1797323251dfaca6d71ba4255844c8c44aa7ffc259cadd7267d82') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
